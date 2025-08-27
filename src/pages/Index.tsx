@@ -1,8 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import ReportForm from "@/components/ReportForm";
-import ServiceMap from "@/components/ServiceMap";
-import Dashboard from "@/components/Dashboard";
+import SimpleReportForm from "@/components/SimpleReportForm";
+import SimpleDashboard from "@/components/SimpleDashboard";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -11,9 +10,8 @@ const Index = () => {
       <Header />
       <main>
         <Hero />
-        <ReportForm />
-        <Dashboard />
-        <ServiceMap />
+        <SimpleReportForm />
+        <SimpleDashboard />
       </main>
       <Footer />
     </div>
